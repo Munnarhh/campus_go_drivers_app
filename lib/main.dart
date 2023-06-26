@@ -1,5 +1,4 @@
 import 'package:bot_toast/bot_toast.dart';
-import 'package:campus_go_drivers/firebase_options.dart';
 
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -10,6 +9,7 @@ import 'core/info_handler/app_info.dart';
 import 'core/routes/routes.dart';
 import 'core/theme/theme.dart';
 import 'features/onboarding/presentation/views/splash_screen.dart';
+import 'firebase_options.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

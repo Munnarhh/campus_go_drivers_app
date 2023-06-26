@@ -1,7 +1,5 @@
 import 'package:bot_toast/bot_toast.dart';
-import 'package:campus_go_drivers/features/authentication/presentation/views/car_info_page.dart';
-import 'package:campus_go_drivers/features/home/presentation/pages/main_screen.dart';
-import 'package:campus_go_drivers/features/onboarding/presentation/views/splash_screen.dart';
+
 
 import 'package:email_validator/email_validator.dart';
 import 'package:firebase_database/firebase_database.dart';
@@ -14,6 +12,8 @@ import 'package:flutter_svg/svg.dart';
 import '../../../../core/constants/constants.dart';
 import '../../../../core/widgets/primarybutton.dart';
 import '../../../../global/global.dart';
+import '../../../home/presentation/pages/main_screen.dart';
+import '../../../onboarding/presentation/views/splash_screen.dart';
 import 'forgot_password.dart';
 
 class LoginPage extends StatefulWidget {

@@ -1,12 +1,12 @@
 import 'package:bot_toast/bot_toast.dart';
-import 'package:campus_go_drivers/core/constants/constants.dart';
-import 'package:campus_go_drivers/core/theme/theme.dart';
-import 'package:campus_go_drivers/features/authentication/presentation/views/login.dart';
-import 'package:campus_go_drivers/features/authentication/presentation/views/loginpage.dart';
+import 'package:campus_go_drivers_app/features/authentication/presentation/views/login.dart';
+
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../../../../core/constants/constants.dart';
+import '../../../../core/theme/theme.dart';
 import '../../../../core/widgets/primarybutton.dart';
 import '../../../../global/global.dart';
 import '../../../home/presentation/pages/main_screen.dart';

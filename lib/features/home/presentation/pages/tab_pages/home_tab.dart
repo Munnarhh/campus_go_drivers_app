@@ -1,7 +1,6 @@
 import 'dart:async';
 import 'package:bot_toast/bot_toast.dart';
-import 'package:campus_go_drivers/core/constants/constants.dart';
-import 'package:campus_go_drivers/global/global.dart';
+
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -10,6 +9,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
+import '../../../../../core/constants/constants.dart';
+import '../../../../../global/global.dart';
 import '../../../assistant/assistant.dart';
 
 class HomeTabPage extends StatefulWidget {

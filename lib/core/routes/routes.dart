@@ -1,7 +1,6 @@
-import 'package:campus_go_drivers/features/authentication/presentation/views/car_info_page.dart';
-import 'package:campus_go_drivers/features/home/presentation/pages/main_screen.dart';
 import 'package:flutter/widgets.dart';
 
+import '../../features/authentication/presentation/views/car_info_page.dart';
 import '../../features/authentication/presentation/views/createpassword.dart';
 import '../../features/authentication/presentation/views/forgot_password.dart';
 import '../../features/authentication/presentation/views/login.dart';
@@ -9,6 +8,7 @@ import '../../features/authentication/presentation/views/loginpage.dart';
 import '../../features/authentication/presentation/views/otp_verification.dart';
 import '../../features/authentication/presentation/views/register.dart';
 
+import '../../features/home/presentation/pages/main_screen.dart';
 import '../../features/menu/presentation/pages/promo.dart';
 import '../../features/menu/presentation/pages/promo_page.dart';
 import '../../features/onboarding/presentation/views/onboarding.dart';

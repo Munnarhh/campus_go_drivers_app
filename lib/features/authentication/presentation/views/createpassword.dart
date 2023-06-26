@@ -1,5 +1,4 @@
 import 'package:bot_toast/bot_toast.dart';
-import 'package:campus_go_drivers/features/authentication/presentation/views/car_info_page.dart';
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_database/firebase_database.dart';
@@ -12,6 +11,7 @@ import '../../../../core/utilities/validation.dart';
 import '../../../../core/widgets/password_validator.dart';
 import '../../../../core/widgets/primarybutton.dart';
 import '../../../../global/global.dart';
+import 'car_info_page.dart';
 import 'login.dart';
 
 class CreatePassword extends StatefulWidget {

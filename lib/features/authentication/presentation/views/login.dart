@@ -1,4 +1,4 @@
-import 'package:campus_go_drivers/features/authentication/presentation/views/register.dart';
+import 'package:campus_go_drivers_app/features/authentication/presentation/views/register.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

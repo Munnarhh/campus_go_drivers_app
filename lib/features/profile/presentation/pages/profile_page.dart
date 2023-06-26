@@ -1,4 +1,4 @@
-import 'package:campus_go_drivers/features/profile/presentation/pages/change_password.dart';
+import 'package:campus_go_drivers_app/features/profile/presentation/pages/change_password.dart';
 import 'package:flutter/material.dart';
 
 import 'package:flutter_screenutil/flutter_screenutil.dart';

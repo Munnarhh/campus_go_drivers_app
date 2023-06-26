@@ -1,8 +1,9 @@
-import 'package:campus_go_drivers/core/constants/constants.dart';
-import 'package:campus_go_drivers/features/home/presentation/pages/tab_pages/home_tab.dart';
+import 'package:campus_go_drivers_app/features/home/presentation/pages/tab_pages/home_tab.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
+
+import '../../../../core/constants/constants.dart';
 
 class MainScreenPage extends StatefulWidget {
   static String routeName = 'MainScreenPage';

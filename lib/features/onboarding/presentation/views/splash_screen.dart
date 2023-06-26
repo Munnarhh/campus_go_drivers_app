@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:campus_go_drivers/features/home/presentation/pages/main_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
@@ -11,6 +10,7 @@ import '../../../../core/constants/constants.dart';
 import '../../../../global/global.dart';
 import '../../../authentication/presentation/views/login.dart';
 import '../../../home/assistant/assistant.dart';
+import '../../../home/presentation/pages/main_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   static String routeName = 'SplashScreen';
